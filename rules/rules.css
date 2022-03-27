@@ -3,10 +3,13 @@
     --primary-color: black;
     --secondary-color:#fff;
     box-sizing: border-box;
-
     padding: 0;
     margin: 0;
 
+}
+*{
+    --red-color: #ff0000;
+    --white-color: #fff;
 }
 body{
     font-family: 'Source Sans Pro', sans-serif;
@@ -45,11 +48,11 @@ li{
 
 }
 footer li:hover{
-    color: red;
+    color: var(--red-color);
     cursor: pointer;
 }
 .foot-info{
-    color: #fff;
+    color: var(--white-color);
     list-style: none;
     display: flex;
     align-items: center;
