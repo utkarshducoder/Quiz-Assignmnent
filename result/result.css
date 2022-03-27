@@ -6,6 +6,9 @@
     margin: 0;
 
 }
+*{
+    --white-color: #fff;
+}
 body{
     font-family: 'Source Sans Pro', sans-serif;
     margin-left: 50px;
@@ -24,7 +27,7 @@ h1{
 .container div{
     margin: 20px;
     width: 100%;
-    color: #fff;
+    color:var(--white-color);
     gap: 5px;
     padding-left: 20%;
 }
