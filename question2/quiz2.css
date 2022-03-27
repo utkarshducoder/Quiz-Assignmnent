@@ -6,6 +6,9 @@
     margin: 0;
 
 }
+*{
+    --white-color: #fff;
+}
 body{
     font-family: 'Source Sans Pro', sans-serif;
     margin-left: 50px;
@@ -13,7 +16,7 @@ body{
     background-color: var(--primary-color);
 }
 h1{
-    color: white;
+    color: var(--white-color);
     text-align: center;
 }
 
@@ -24,10 +27,10 @@ h1{
     justify-content: center;
 }
 .container div{
-    margin: 20px;
+    margin: 2div;
     width: 100%;
     color: #fff;
-    gap: 5px;
+    gap: 5div;
     padding-left: 20%;
 }
 #option1{
