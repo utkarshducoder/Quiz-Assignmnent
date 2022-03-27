@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+:root{
+    --primary-color: black;
+    --secondary-color:#fff;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+*{
+    --red-color: #ff0000;
+    --white-color: #fff;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 50px;
+    font-family: 'Pangolin', cursive;
+    background-color: var(--primary-color);
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+   
+    
+}
+
+ol{
+    color: var(--secondary-color);
+    
+    margin: 5rem;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+   
+    
+}
+
+li{
+    padding: 1.2rem;
+
+
+}
+footer li:hover{
+    color: var(--red-color);
+    cursor: pointer;
+}
+.foot-info{
+    color: var(--white-color);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+   .footer-list{
+    color: #fff;
+    list-style: none;
+    display: flex;
+    margin: 2rem;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  @media (max-width: 480px){
+      section{
+          width: 12rem;
+      }
+  }
+  
