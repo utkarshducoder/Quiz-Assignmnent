@@ -19,13 +19,13 @@ h1{
 
 .imp-text{
     font-family: 'Redressed', cursive;
-font-family: 'Roboto', sans-serif;
-font-family: 'Satisfy', cursive;
-width: 100%;
-padding: 0;
-position: relative;
-text-align: center;
-color: blue;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    color: blue;
 
 }
 
@@ -118,18 +118,6 @@ color: blue;
       gap: 4rem;
       justify-content: center;
       align-items: center;
-    
-    /* grid-template-areas: 200px 1fr; */
-    /* align-items: center; 
-    padding: 3.5rem;
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin: auto; */
-    /* grid-area: main;
-    font-size: 1.2rem;
-    padding-left: 7rem;
-    padding-right: 7rem; */
     
    
 }
