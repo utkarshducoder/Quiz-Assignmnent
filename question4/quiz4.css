@@ -6,6 +6,9 @@
     margin: 0;
 
 }
+*{
+    --white-color: #fff;
+}
 body{
     font-family: 'Source Sans Pro', sans-serif;
     margin-left: 50px;
@@ -13,7 +16,7 @@ body{
     background-color: var(--primary-color);
 }
 h1{
-    color: white;
+    color: var(--white-color);
     text-align: center;
 }
 
@@ -36,7 +39,7 @@ h1{
     cursor: pointer;
     text-align: center;
     padding:20px;
-    color:#fff;
+    color:var(--white-color);
     background-color: #67656b;
     margin: 0.2rem;
     width: 35rem;
