@@ -6,9 +6,6 @@
     margin: 0;
 
 }
-*{
-    --white-color: #fff;
-}
 body{
     font-family: 'Source Sans Pro', sans-serif;
     margin-left: 50px;
@@ -16,7 +13,7 @@ body{
     background-color: var(--primary-color);
 }
 h1{
-    color: var(--white-color);
+    color: white;
     text-align: center;
 }
 
@@ -65,7 +62,7 @@ h1{
     padding:20px;
     color:#fff;
     opacity: 0.8;
-    background-color:red;
+    background-color:#67656b;
     margin: 0.2rem;
     width: 35rem;
     height: 4rem;
@@ -78,7 +75,7 @@ h1{
     padding:20px;
     color:#fff;
     opacity: 0.8;
-    background-color:#059669;
+    background-color:#67656b;
     margin: 0.2rem;
     width: 35rem;
     height: 4rem;
