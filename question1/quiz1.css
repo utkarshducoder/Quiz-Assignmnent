@@ -43,7 +43,7 @@ h1{
     text-align: center;
     padding:2rem;
     color:#fff;
-    background-color: #059669;
+    background-color: var(--secondary-color);
     margin: 0.2rem;
     width: 35rem;
     height: 4rem;
@@ -58,7 +58,7 @@ h1{
     text-align: center;
     padding:2rem;
     color:#fff;
-    background-color:red;
+    background-color:var(--secondary-color);
     margin: 0.2rem;
     width: 35rem;
     height: 2rem;
