@@ -43,6 +43,18 @@ h1{
   }
   
   
+.navigation{
+    background-color:#7C3AED;
+    color: white;
+    padding: 2rem;
+    border-bottom-left-radius: 2rem;
+}    
+nav{
+    display: block;
+}
+.navigation.nav-brand{
+    font-weight: bold;
+}
   .card {
     background-color: var(--secondary-color);
     box-shadow: 1px 1px 1px white;
