@@ -102,4 +102,24 @@ section{
     border-radius: 50%;
    
    
-}   
+}  
+
+.options{
+    list-style:none;
+}
+p{
+  color: #fff;
+}
+
+.navigation{
+    background-color:#7C3AED;
+    color: white;
+    padding: 2rem;
+    border-bottom-left-radius: 2rem;
+}    
+nav{
+    display: block;
+}
+.navigation.nav-brand{
+    font-weight: bold;
+}
