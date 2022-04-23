@@ -29,7 +29,8 @@ h1{
     gap: 5px;
     padding-left: 20%;
 }
-
+#option1:hover{
+    color:red;}
 
 #option1{
     font-size:2rem;
