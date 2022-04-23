@@ -28,7 +28,17 @@ h1{
     gap: 5px;
     padding-left: 20%;
 }
-
+#option1:hover{
+    color:red;}
+#option2:hover{
+color:red;
+}
+#option3:hover{
+color:red;
+}
+#option4:hover{
+color:red;
+}
 #option1{
     font-size:2rem;
     border-radius:12px;
