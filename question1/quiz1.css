@@ -29,7 +29,7 @@ h1{
     gap: 5px;
     padding-left: 20%;
 }
-#option1:hover{
+#option1#option2#option3#option4:hover{
     color:red;}
 
 #option1{
