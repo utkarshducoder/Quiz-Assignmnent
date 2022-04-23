@@ -43,7 +43,7 @@ ol{
 }
 
 li{
-    padding: 1.2rem;
+    padding: 1rem;
 
 
 }
@@ -91,6 +91,7 @@ nav{
 .navigation.nav-brand{
     font-weight: bold;
 }
+
   @media (max-width: 480px){
       section{
           width: 12rem;
