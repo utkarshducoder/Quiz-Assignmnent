@@ -70,6 +70,27 @@ footer li:hover{
     justify-content: center;
     
   }
+
+.options{
+    list-style:none;
+}
+p{
+  color: #fff;
+}
+
+  
+.navigation{
+    background-color:#7C3AED;
+    color: white;
+    padding: 2rem;
+    border-bottom-left-radius: 2rem;
+}    
+nav{
+    display: block;
+}
+.navigation.nav-brand{
+    font-weight: bold;
+}
   @media (max-width: 480px){
       section{
           width: 12rem;
