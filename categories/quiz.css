@@ -16,6 +16,9 @@ h1{
     color: white;
     text-align: center;
 }
+p{
+  color: #fff;
+}
 
 .imp-text{
     font-family: 'Redressed', cursive;
